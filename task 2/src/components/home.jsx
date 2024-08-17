@@ -4,15 +4,15 @@ import Header from './header'
 const Home = () => {
     return (
         <div className=''>
-            <Header/>
-            <div className="mx-20 my-16 flex">
-                <div className="flex flex-col">
-                    <h1 className='font-extrabold mb-10 '>Desserts</h1>
-                    <div className="flex flex-wrap gap-9">
+            <Header />
+            <div className="mx-20 my-16 flex gap-6 max-md:mx-1 max-md:my-9">
+                <div className="flex flex-col ">
+                    <h1 className='font-extrabold mb-10 max-md:text-5xl max-md:mx-4'>Desserts</h1>
+                    <div className="flex flex-wrap gap-9 max-md:justify-center">
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-waffle-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -33,7 +33,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-creme-brulee-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -54,7 +54,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-macaron-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -75,7 +75,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-tiramisu-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -96,7 +96,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-baklava-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -117,7 +117,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-cake-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -138,7 +138,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-meringue-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -159,7 +159,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-brownie-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
@@ -180,7 +180,7 @@ const Home = () => {
                         <div className="">
                             <div className="flex flex-col items-center">
                                 <img
-                                    className="w-80 h-80 rounded-xl "
+                                    className="w-80 h-80 rounded-xl max-md:h-auto"
                                     src="src/assets/images/image-panna-cotta-desktop.jpg"
                                     alt="image-waffle-desktop"
                                 />
