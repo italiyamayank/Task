@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from './header'
 
 const Home = () => {
     return (
         <div className=''>
+            <Header/>
             <div className="mx-20 my-16 flex">
                 <div className="flex flex-col">
                     <h1 className='font-extrabold mb-10 '>Desserts</h1>
@@ -198,7 +200,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white p-4 rounded-xl min-w-[450px] h-[320px] flex flex-col gap-11'>
+                <div className='bg-white p-4 rounded-xl min-w-[450px] h-[320px] flex flex-col gap-11 max-lg:min-w-[300px] max-md:hidden '>
                     <h2 className=' font-extrabold text-[#a7573d] mt-3'>Your Cart (0)</h2>
                     <img className="flex self-center" src="src/assets/images/illustration-empty-cart.svg" alt="illustration-empty-cart" />
                     <p className='text-[#a7573d] text-center'>Your added items will appear here</p>
